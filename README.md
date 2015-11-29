@@ -2,6 +2,8 @@
 
 Simple py-webkitGTK disable Drang-and-Drop using Python and Javascript.
 
+See more in [Example.py](https://github.com/xPhip/py-webkitgtk-disable-drag-and-drop/blob/master/README.md)
+
 #### Py
 ```python
 def nulled(one=None, two=None, tree=None, four=None):
