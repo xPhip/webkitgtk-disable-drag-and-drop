@@ -6,7 +6,7 @@ See more in [Example.py](https://github.com/xPhip/py-webkitgtk-disable-drag-and-
 
 #### Py
 ```python
-def nulled(one=None, two=None, tree=None, four=None):
+def nulled(self, view, frame, message, isConfirmed):
   return 1
 ```
 ```python
