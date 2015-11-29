@@ -22,7 +22,7 @@ Hello World!
 """
 
 # Cancel javascript dialog
-def nulled(self, view, frame, message, isConfirmed):
+def js_script_confirm(view, dialog, data, arg):
 	return 1
 
 win = gtk.Window()
@@ -35,7 +35,7 @@ win.add(scroller)
 web = webkit.WebView()
 
 web.load_string(HTML, "text/html", "UTF-8","/")
-web.connect("script-confirm", nulled)
+web.connect("script-confirm", js_script_confirm)
 
 scroller.add(web)
 win.show_all()
