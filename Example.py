@@ -22,7 +22,7 @@ Hello World!
 """
 
 # Cancel javascript dialog
-def nulled(one=None, two=None, tree=None, four=None):
+def nulled(self, view, frame, message, isConfirmed):
 	return 1
 
 win = gtk.Window()
