@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-#### Git repository
-## https://github.com/xPhip/py-webkitgtk-disable-drag-and-drop/
-
 import gtk
 import webkit
 
