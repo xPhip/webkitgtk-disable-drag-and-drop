@@ -6,11 +6,11 @@ See more in [Example.py](https://github.com/xPhip/py-webkitgtk-disable-drag-and-
 
 #### Py
 ```python
-def nulled(self, view, frame, message, isConfirmed):
+def js_script_confirm(view, dialog, data, arg):
   return 1
 ```
 ```python
-webkit.WebView().connect("script-confirm", nulled)
+webkit.WebView().connect("script-confirm", js_script_confirm)
 ```
 
 #### Js
