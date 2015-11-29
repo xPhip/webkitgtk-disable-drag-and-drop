@@ -33,11 +33,9 @@ win.set_size_request(250,250)
 scroller = gtk.ScrolledWindow()
 win.add(scroller)
 web = webkit.WebView()
+
 web.load_string(HTML, "text/html", "UTF-8","/")
-
-web.connect("script-alert", nulled)
 web.connect("script-confirm", nulled)
-
 
 scroller.add(web)
 win.show_all()
