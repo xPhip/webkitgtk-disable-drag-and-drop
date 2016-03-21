@@ -17,7 +17,7 @@ Hello World!
 """
 
 # Cancel javascript dialog
-def js_script_confirm(view, dialog, data, arg):
+def js_script_confirm(sef, view, dialog, data):
 	return 1
 
 win = gtk.Window()
