@@ -6,7 +6,7 @@ See more in [Example.py](https://github.com/xPhip/py-webkitgtk-disable-drag-and-
 
 #### Py
 ```python
-def js_script_confirm(view, dialog, data, arg):
+def js_script_confirm(self, view, dialog, data):
   return 1
 ```
 ```python
